@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jphilipstevens/web-service-gin/app/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
 )
 
 const (

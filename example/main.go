@@ -12,15 +12,15 @@ import (
 	"flag"
 	"os"
 
-	"github.com/jphilipstevens/web-service-gin/app"
-	"github.com/jphilipstevens/web-service-gin/app/cache"
-	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/app/dependencies"
-	"github.com/jphilipstevens/web-service-gin/config"
-	"github.com/jphilipstevens/web-service-gin/example/features/albums"
-	"github.com/jphilipstevens/web-service-gin/example/seed"
+	"github.com/jphilipstevens/web-service-gin-example/example/features/albums"
+	"github.com/jphilipstevens/web-service-gin-example/example/seed"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/app"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/cache"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/config"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/dependencies"
 
-	"github.com/jphilipstevens/web-service-gin/docs"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/docs"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

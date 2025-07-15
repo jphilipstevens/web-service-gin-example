@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/app/dependencies"
-	"github.com/jphilipstevens/web-service-gin/testUtils"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/dependencies"
+	"github.com/jphilipstevens/web-service-gin/v2/testUtils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/gin-gonic/gin"

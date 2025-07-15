@@ -19,7 +19,7 @@ build-example: ## Build the example binary
 
 build_with_new_version: ## Patch version + build binary with embedded version string
 	./scripts/version.sh patch 
-	$(GOBUILD) -ldflags "-X github.com/jphilipstevens/web-service-gin/app/version.Version=$(shell cat $(VERSION_FILE))" -o $(BINARY_NAME) -v $(MAIN_PATH)
+	$(GOBUILD) -ldflags "-X github.com/jphilipstevens/web-service-gin/v2/pkg/version.Version=$(shell cat $(VERSION_FILE))" -o $(BINARY_NAME) -v $(MAIN_PATH)
 
 # 🧪 Test & Coverage
 test: ## Run unit tests

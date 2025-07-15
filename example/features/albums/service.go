@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jphilipstevens/web-service-gin/app/cache"
-	"github.com/jphilipstevens/web-service-gin/app/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/cache"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
 )
 
 const (

@@ -1,9 +1,9 @@
 package albums
 
 import (
-	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/app/dependencies"
-	"github.com/jphilipstevens/web-service-gin/app/middleware"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/dependencies"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/middleware"
 )
 
 func Init(deps *dependencies.Dependencies[db.Database]) {

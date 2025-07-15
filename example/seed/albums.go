@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/example/features/albums"
-	"github.com/jphilipstevens/web-service-gin/testUtils"
+	"github.com/jphilipstevens/web-service-gin-example/example/features/albums"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
+	"github.com/jphilipstevens/web-service-gin/v2/testUtils"
 )
 
 var data = []albums.Album{

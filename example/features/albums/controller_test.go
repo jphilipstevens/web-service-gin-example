@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/jphilipstevens/web-service-gin/app/db"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

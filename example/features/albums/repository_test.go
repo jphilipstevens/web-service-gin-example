@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/config"
-	"github.com/jphilipstevens/web-service-gin/testUtils"
+	"github.com/jphilipstevens/web-service-gin/v2/config"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
+	"github.com/jphilipstevens/web-service-gin/v2/testUtils"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
