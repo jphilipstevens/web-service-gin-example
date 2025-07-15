@@ -3,7 +3,7 @@ package seed
 import (
 	"fmt"
 
-	"github.com/jphilipstevens/web-service-gin/v2/config"
+	"github.com/jphilipstevens/web-service-gin/v2/pkg/config"
 	"github.com/jphilipstevens/web-service-gin/v2/pkg/db"
 	"github.com/jphilipstevens/web-service-gin/v2/testUtils"
 )
