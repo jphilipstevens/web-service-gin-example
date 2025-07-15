@@ -13,12 +13,12 @@ import (
 	"os"
 
 	"github.com/jphilipstevens/web-service-gin/app"
+	"github.com/jphilipstevens/web-service-gin/app/cache"
 	"github.com/jphilipstevens/web-service-gin/app/db"
+	"github.com/jphilipstevens/web-service-gin/app/dependencies"
 	"github.com/jphilipstevens/web-service-gin/config"
 	"github.com/jphilipstevens/web-service-gin/example/features/albums"
 	"github.com/jphilipstevens/web-service-gin/example/seed"
-	"github.com/jphilipstevens/web-service-gin/pkg/cache"
-	"github.com/jphilipstevens/web-service-gin/pkg/dependencies"
 
 	"github.com/jphilipstevens/web-service-gin/docs"
 	swaggerFiles "github.com/swaggo/files"

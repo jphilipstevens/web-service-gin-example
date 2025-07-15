@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jphilipstevens/web-service-gin/app/db"
-	"github.com/jphilipstevens/web-service-gin/pkg/dependencies"
+	"github.com/jphilipstevens/web-service-gin/app/dependencies"
 	"github.com/jphilipstevens/web-service-gin/testUtils"
 
 	"github.com/DATA-DOG/go-sqlmock"
